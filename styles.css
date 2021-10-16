@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'abc synt';
+  src: url('fonts/abcsyntpre-regular-webfont.woff2') format('woff2'),
+       url('fonts/abcsyntpre-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'abc synt';
+  src: url('fonts/abcsyntpre-turbo-webfont.woff2') format('woff2'),
+       url('fonts/abcsyntpre-turbo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+html {
+  font-family: 'abc synt', serif;
+  font-size:3.2rem;
+  font-variant-numeric: oldstyle-nums;
+  color: #FF0000;
+}
+
+body {
+}
+
+p {
+  margin:0;
+  font-variant-numeric: oldstyle-nums;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 70vh;
+}
+
+.container {
+  padding:.5rem;
+  display:flex;
+  /* background:lightblue; */
+  flex-direction:column;
+  min-height:100vh;
+  justify-content: space-between;
+}
+
+.main {
+  /* background:lightgreen; */
+}
+
+.mailing {
+  /* background:pink; */
+}
+
+.rand {
+  /* background:pink; */
+  position:fixed;
+  z-index: -1;
+}
+
+.rand img {
+  height:55vh;
+}
+
+.rand-a img {
+  height:60vh;
+}
