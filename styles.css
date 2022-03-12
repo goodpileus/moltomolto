@@ -38,6 +38,10 @@ a {
   color:inherit;
 }
 
+a:hover {
+  font-style: italic;
+}
+
 img {
   max-height: 70vh;
 }
@@ -102,14 +106,20 @@ img {
 
 #mc-embedded-subscribe {
   font-family: 'abc synt', serif;
+  font-weight: bolder;
   color: #FF0000;
   background:transparent;
   border:none;
   position: absolute;
-  right: -44px;
   bottom: -12px;
+  right: -36px;
+  height: 47px;
   border-radius: 10px;
   cursor: pointer;
+  /* display: none; */
+}
+
+#mc-embedded-subscribe.hide {
   display: none;
 }
 
@@ -133,7 +143,7 @@ img {
   height:70vh;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
   html {
     font-size: 1.58rem;
   }
@@ -146,6 +156,20 @@ img {
     height:1.5rem;
     border-bottom-width: 6px;
     width:100%;
+    margin-right: 40px;
+  }
+
+  #mce-EMAIL {
+    width: 100%;
+    font-size: .9rem;
+    text-align: left;
+    bottom: -9px;
+    text-indent: 2px;
+  }
+
+  #mc-embedded-subscribe {
+    right:-28px;
+    bottom:-16px;
   }
 
   #email {
@@ -172,13 +196,5 @@ img {
 
   .rand-a img {
     height:50vh;
-  }
-
-  #mce-EMAIL {
-    width: 100%;
-    font-size: .9rem;
-    text-align: left;
-    bottom: -9px;
-    text-indent: 2px;
   }
 }
