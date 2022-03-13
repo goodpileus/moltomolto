@@ -150,11 +150,12 @@ img {
 
   .mailing {
     /* flex-direction: column; */
+    margin-bottom: -4px;
   }
 
   .underline {
     height:1.5rem;
-    border-bottom-width: 6px;
+    border-bottom-width: 8px;
     width:100%;
     margin-right: 40px;
   }
@@ -179,7 +180,7 @@ img {
   }
 
   .rand {
-    display:none;
+    /* display:none; */
   }
 
   .rand-a {
