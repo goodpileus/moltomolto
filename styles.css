@@ -76,9 +76,13 @@ img {
 .underline {
   border-style: dotted;
   border-color: #FF0000;
-  border-image-source: url('img/dots.svg');
-  border-image-slice: 33% 31%;
-  border-image-repeat: round;
+  /* border-image-source: url('img/dots.svg'); */
+
+  border-image: url('img/dots.svg') 32% 31%;
+  -webkit-border-image: url('img/dots.svg') 32% 31%;
+  /* border-image-slice: 33% 31%; */
+  border-image-repeat: repeat;
+  /* border-style: solid; */
   /* height: 1.5rem; */
   border-bottom-width: 10px;
   border-top-width: 0;
