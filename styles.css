@@ -156,6 +156,8 @@ img {
   .underline {
     height:1.5rem;
     border-bottom-width: 8px;
+    border-image-slice: 38% 28%;
+
     width:100%;
     margin-right: 40px;
   }
