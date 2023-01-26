@@ -23,6 +23,7 @@ html {
   font-size:1.64rem;
   font-variant-numeric: oldstyle-nums;
   color: #FF0000;
+  hyphens: auto;
 }
 
 body {
@@ -31,6 +32,10 @@ body {
 p {
   margin:0;
   font-variant-numeric: oldstyle-nums;
+}
+
+::selection {
+  background:rgba(255, 174, 153, 0.5);
 }
 
 a {
@@ -159,7 +164,6 @@ img {
 @media screen and (max-width:900px) {
   html {
     font-size: 1.3rem;
-    hyphens: auto;
   }
 
   .mailing {
